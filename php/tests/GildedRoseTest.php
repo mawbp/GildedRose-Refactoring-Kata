@@ -58,6 +58,14 @@ class GildedRoseTest extends TestCase
                 'Sulfuras, Hand of Ragnaros', 5, 80, 5, 80
             ],
 
+            // --- CONJURED ---
+            'Conjured: SellIn dan Quality berkurang 2x dari normal item' => [
+                'Conjured Mana Cake', 5, 20, 4, 18
+            ],
+            'Conjured: SellIn dan Quality berkurang 2x dari normal item' => [
+                'Conjured Mana Cake', 0, 15, -1, 11
+            ],
+
             // --- BACKSTAGE PASSES ---
             'Backstage Passes: Naik 1 jika sellIn > 10' => [
                 'Backstage passes to a TAFKAL80ETC concert', 15, 20, 14, 21
